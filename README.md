@@ -8,7 +8,9 @@ Clone the repository or download the source code.
 
 Install the dependencies by running the following command:
 
-```npm install```
+```
+npm install
+```
 
 
 Usage
@@ -17,11 +19,15 @@ To use the Documents Reader class, follow the steps below:
 Import the DocumentsReader class into your TypeScript file:
 
 
-```import DocumentsReader from './DocumentsReader';```
+```
+import DocumentsReader from './DocumentsReader';
+```
 Create an instance of the DocumentsReader class, providing the filename of the Excel file to be read:
 
 
-```const reader = new DocumentsReader('filename.xlsx');```
+```
+const reader = new DocumentsReader('filename.xlsx');
+```
 
 Use the available methods to retrieve and process the data from the Excel file:
 
